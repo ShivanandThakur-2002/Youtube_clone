@@ -1,0 +1,133 @@
+.header{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav img{
+  height: 25px;
+  width: 25px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+.youtubeimage img{
+  margin-left: 20px;
+}
+
+.youtubetext p{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.searchbox {
+  margin-left: 25%;
+  align-items: center;
+  margin-top: 15px;
+}
+
+input{
+  border-radius: 10px;
+  width: 300px;
+  height: 20px;
+}
+
+button{
+  margin-top: 15px;
+  border-radius: 20px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.microphone img{
+  width: 25px;
+  height: 25px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.cameraicon img{
+  width: 25px;
+  height: 25px;
+  margin-top: 15px;
+  margin-left: 230px;
+}
+
+.notification img{
+  width: 25px;
+  height: 25px;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+.account img{
+  width: 25px;
+  height: 25px;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+.container1{
+  
+  display: flex;
+}
+
+.aside{
+  width: 20%;
+  margin: 0;
+  padding: 0;
+}
+
+.aside ul{
+  padding: 12px;
+}
+
+.aside img{
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+}
+
+.aside ul li{
+  list-style: none;
+  margin-top: 10px;
+}
+
+.footer{
+  color:gray
+}
+
+.main{
+  width: 80%;
+}
+
+.suggestions ul{
+  display: flex;
+  width: 95%;
+  
+  justify-content: space-between;
+}
+
+.suggestions ul li{
+  list-style: none;
+}
+
+.videos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  width: 99%;
+  height: 96%;
+  
+}
+
+.videos iframe{
+  width: 350px;
+  height: 250px;
+  margin-left: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
